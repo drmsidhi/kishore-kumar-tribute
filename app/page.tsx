@@ -1,7 +1,8 @@
 import Hero from "@/components/Hero";
 import Jukebox from "@/components/Jukebox";
-import Chronicles from "@/components/Chronicles";
 import CinemaSection from "@/components/CinemaSection";
+import Gallery from "@/components/Gallery";
+import Chronicles from "@/components/Chronicles";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <Jukebox />
       <CinemaSection />
+      <Gallery />
       <Chronicles />
     </>
   );
